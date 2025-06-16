@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/products
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDk4MTQ0OTksInVzZXJJZCI6MX0.ZsOhcqV1LBeilzupxXNDcGD9uifvZy-sZ2qaMsiRsZA
+
+{
+  "name": "MacBook 2 PRO",
+  "description": "Apple M2 işlemcili dizüstü bilgisayar",
+  "price": 42999.99
+}

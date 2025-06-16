@@ -1,0 +1,9 @@
+PUT http://localhost:8080/api/products/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDk4MTQ0OTksInVzZXJJZCI6MX0.ZsOhcqV1LBeilzupxXNDcGD9uifvZy-sZ2qaMsiRsZA
+
+{
+  "name": "Kablosuz Mouse",
+  "description": "Yüksek DPI, sessiz tıklama",
+  "price": 279.99
+}
